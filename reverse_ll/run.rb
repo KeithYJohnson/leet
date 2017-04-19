@@ -27,6 +27,7 @@ class Node
   end
 
   def fast_reverse
+     # much better solution here - https://www.interviewcake.com/question/python/reverse-linked-list
     return self unless next_node = self.next
 
     current     = self
